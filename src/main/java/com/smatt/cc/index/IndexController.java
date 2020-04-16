@@ -1,10 +1,9 @@
 /**
- * 
+ *
  */
 package com.smatt.cc.index;
 
-import com.smatt.cc.util.Path;
-
+import com.smatt.cc.config.Constants;
 import spark.ModelAndView;
 import spark.Request;
 import spark.Response;
@@ -17,18 +16,18 @@ import spark.Response;
  */
 public class IndexController {
 
-	/**
-	 * Constructor 
-	 * cloud contacts
-	 */
-	public IndexController() {
-		
-	}
-	
-	
-	public static ModelAndView serveHomePage (Request re, Response res) {
-			return new ModelAndView(null, Path.Templates.INDEX);
+    /**
+     * Constructor
+     * cloud contacts
+     */
+    public IndexController() {
+
     }
-	
+
+
+    public static ModelAndView serveHomePage(Request re, Response res) {
+        return new ModelAndView(null, Constants.Templates.INDEX);
+    }
+
 
 }

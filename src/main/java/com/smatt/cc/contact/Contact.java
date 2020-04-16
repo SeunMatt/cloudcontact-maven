@@ -1,14 +1,14 @@
 /**
- * 
+ *
  */
 package com.smatt.cc.contact;
 
-import java.util.Date;
-
 import org.bson.types.ObjectId;
-import org.mongodb.morphia.annotations.*;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.mongodb.morphia.annotations.Entity;
+import org.mongodb.morphia.annotations.Id;
+import org.mongodb.morphia.annotations.Property;
+
+import java.util.Date;
 
 /**
  * @author Seun Matt
@@ -20,258 +20,258 @@ import org.slf4j.LoggerFactory;
 @Entity("contacts")
 public class Contact {
 
-	/**
-	 * Constructor 
-	 * cloud contacts
-	 */
-	
-	@Id
-	private ObjectId id;
-	
-        @Property("first_name")
-	private String firstName = "";
-        @Property("middle_name")
-	private String middleName = "";
-        @Property("last_name")
-	private String lastName = "";
-        
-	private String mobile = "";
-	private String work = "", fax = "", home = "";
-	private String email = "";
-	private String address = "";
-        private String note =  "";
-        
-        @Property("_created_at")
-	private Date createdAt = new Date();
-        @Property("_updated_at")
-        private Date updatedAt = new Date();
-	
-	@Property("user_id")
-	private String userId = "";
-        
-        /**
-         * WARNING: This class is mapped by morphia
-         * if you create an instance of logger here
-         * there will be error by morphia
-         */
-	
-	public Contact() {	}
+    /**
+     * Constructor
+     * cloud contacts
+     */
 
-	
-	public Contact(String firstName, String lastName, String mobile) {
-		
-		this.firstName = firstName;
-		this.lastName = lastName;
-		this.mobile = mobile;
-	}
-	
+    @Id
+    private ObjectId id;
 
-	public ObjectId getId() {
-		return (id != null) ? id : null;
-	}
+    @Property("first_name")
+    private String firstName = "";
+    @Property("middle_name")
+    private String middleName = "";
+    @Property("last_name")
+    private String lastName = "";
+
+    private String mobile = "";
+    private String work = "", fax = "", home = "";
+    private String email = "";
+    private String address = "";
+    private String note = "";
+
+    @Property("_created_at")
+    private Date createdAt = new Date();
+    @Property("_updated_at")
+    private Date updatedAt = new Date();
+
+    @Property("user_id")
+    private String userId = "";
+
+    /**
+     * WARNING: This class is mapped by morphia
+     * if you create an instance of logger here
+     * there will be error by morphia
+     */
+
+    public Contact() {
+    }
 
 
-	public void setId(String id) {
-            //this will prevent class cast exception
-            //by morphia and in case it is null
-            //nothing will happen
-            if(id != null && !id.isEmpty()) {
-                this.id = new ObjectId(id);
-            }
-   	}
+    public Contact(String firstName, String lastName, String mobile) {
+
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.mobile = mobile;
+    }
 
 
-	public String getFirstName() {
-		return firstName;
-	}
+    public ObjectId getId() {
+        return id;
+    }
 
 
-	public void setFirstName(String firstName) {
-		this.firstName = firstName;
-	}
+    public void setId(String id) {
+        //this will prevent class cast exception
+        //by morphia and in case it is null
+        //nothing will happen
+        if (id != null && !id.isEmpty()) {
+            this.id = new ObjectId(id);
+        }
+    }
 
 
-	public String getMiddleName() {
-		return middleName;
-	}
+    public String getFirstName() {
+        return firstName;
+    }
 
 
-	public void setMiddleName(String middleName) {
-		this.middleName = middleName;
-	}
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
 
 
-	public String getLastName() {
-		return lastName;
-	}
+    public String getMiddleName() {
+        return middleName;
+    }
 
 
-	public void setLastName(String lastName) {
-		this.lastName = lastName;
-	}
+    public void setMiddleName(String middleName) {
+        this.middleName = middleName;
+    }
 
 
-	public String getMobile() {
-		return mobile;
-	}
+    public String getLastName() {
+        return lastName;
+    }
 
 
-	public void setMobile(String mobile) {
-		this.mobile = mobile;
-	}
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
 
 
-	public String getWork() {
-		return work;
-	}
+    public String getMobile() {
+        return mobile;
+    }
 
 
-	public void setWork(String work) {
-		this.work = work;
-	}
+    public void setMobile(String mobile) {
+        this.mobile = mobile;
+    }
 
 
-	public String getFax() {
-		return fax;
-	}
+    public String getWork() {
+        return work;
+    }
 
 
-	public void setFax(String fax) {
-		this.fax = fax;
-	}
+    public void setWork(String work) {
+        this.work = work;
+    }
 
 
-	public String getHome() {
-		return home;
-	}
+    public String getFax() {
+        return fax;
+    }
 
 
-	public void setHome(String home) {
-		this.home = home;
-	}
+    public void setFax(String fax) {
+        this.fax = fax;
+    }
 
 
-	public String getEmail() {
-		return email;
-	}
+    public String getHome() {
+        return home;
+    }
 
 
-	public void setEmail(String email) {
-		this.email = email;
-	}
+    public void setHome(String home) {
+        this.home = home;
+    }
 
 
-	public String getAddress() {
-		return address;
-	}
+    public String getEmail() {
+        return email;
+    }
 
 
-	public void setAddress(String address) {
-		this.address = address;
-	}
+    public void setEmail(String email) {
+        this.email = email;
+    }
 
 
-	public String getNote() {
-                return note;
-	}
+    public String getAddress() {
+        return address;
+    }
 
 
-	public void setNote(String note) {
-		this.note = note;
-	}
-
-	
-	public String getUserId() {
-		return userId;
-	}
+    public void setAddress(String address) {
+        this.address = address;
+    }
 
 
-	public void setUserId(String userId) {
-		this.userId = userId;
-	}
+    public String getNote() {
+        return note;
+    }
 
 
-	public Date getCreatedAt() {
-		return createdAt;
-	}
+    public void setNote(String note) {
+        this.note = note;
+    }
 
 
-	public void setCreatedAt(Date createdAt) {
-		this.createdAt = createdAt;
-	}
+    public String getUserId() {
+        return userId;
+    }
 
 
-	public Date getUpdatedAt() {
-		return updatedAt;
-	}
+    public void setUserId(String userId) {
+        this.userId = userId;
+    }
 
 
-	public void setUpdatedAt(Date updatedAt) {
-		this.updatedAt = updatedAt;
-	}
+    public Date getCreatedAt() {
+        return createdAt;
+    }
 
 
-        @Override
-	public String toString() {
-		
-		return "id = " + id +
-				"\nfirst_name = " + getFirstName() + 
-				"\nmiddle_name = " + getMiddleName() +
-				"\nlast_name = " + getLastName() +
-				"\nmobile = " + getMobile() +
-				"\nfax = " + getFax() +
-				"\nwork = " + getWork() + 
-				"\nhome = " + getHome() + 
-				"\nemail = " + getEmail() +
-				"\naddress = " + getAddress() +
-				"\nnote = " +  getNote() +
-				"\n";				
-	}
-	
-	
-	public String toJson() {
-		
-		return  "{" +
-                        "\"id\": " + "\"" + getId() + "\", " +
-                        "\"first_name\":" + "\"" + getFirstName() + "\", " +
-                        "\"middle_name\":" + "\"" + getMiddleName() + "\", " +
-                        "\"last_name\":" + "\"" + getLastName() + "\", " +
-                        "\"mobile\":" + "\"" + getMobile() + "\", " +
-                        "\"fax\":" + "\"" + getFax() + "\", " +
-                        "\"work\":" + "\"" + getWork() + "\", " +
-                        "\"home\":" + "\"" + getHome() + "\", " +
-                        "\"email\":" + "\"" + getEmail() + "\", " +
-                        "\"address\":" + "\"" + getAddress() + "\", " +
-                        "\"note\":" + "\"" + getNote() + "\"" +
-                         "}" ;
-	}
-	
-	
-	public String toTableRow() {
-		
-		return  "<tr>" + "\n" +
-				"<td>" + getFirstName() + " " + getLastName() + "</td>" + "\n" +
-				"<td>" + getMobile() + "</td>" + "\n" + 
-				"<td>" + getEmail() + "</td>" + "\n" +
-				"<td class=\"view\">" + "<span class=\"glyphicon glyphicon-search\"></span> </td> \n" +
-				"<td class=\"del\">" + "<span class=\"glyphicon glyphicon-trash\"></span> </td> " + 
-				"</tr> \n";
-		
-	}
-        
-        
-        public String toTableRow(int index) {
-		
-		return  "<tr>" + "\n" +
-                                "<td>" + index + "</td>" + "\n" +
-				"<td class=\"ncol\">" + getFirstName() + " " + getLastName() + "</td>" + "\n" +
-				"<td class=\"mcol\">" + getMobile() + "</td>" + "\n" + 
-				"<td class=\"ecol\">" + getEmail() + "</td>" + "\n" +
-				"<td class=\"view\">" + "<span class=\"glyphicon glyphicon-search\"></span> </td> \n" +
-				"<td class=\"del\">" + "<span class=\"glyphicon glyphicon-trash\"></span> </td> " + 
-				"</tr> \n";
-	}
-        
-	
-	
+    public void setCreatedAt(Date createdAt) {
+        this.createdAt = createdAt;
+    }
+
+
+    public Date getUpdatedAt() {
+        return updatedAt;
+    }
+
+
+    public void setUpdatedAt(Date updatedAt) {
+        this.updatedAt = updatedAt;
+    }
+
+
+    @Override
+    public String toString() {
+
+        return "id = " + id +
+                "\nfirst_name = " + getFirstName() +
+                "\nmiddle_name = " + getMiddleName() +
+                "\nlast_name = " + getLastName() +
+                "\nmobile = " + getMobile() +
+                "\nfax = " + getFax() +
+                "\nwork = " + getWork() +
+                "\nhome = " + getHome() +
+                "\nemail = " + getEmail() +
+                "\naddress = " + getAddress() +
+                "\nnote = " + getNote() +
+                "\n";
+    }
+
+
+    public String toJson() {
+
+        return "{" +
+                "\"id\": " + "\"" + getId() + "\", " +
+                "\"first_name\":" + "\"" + getFirstName() + "\", " +
+                "\"middle_name\":" + "\"" + getMiddleName() + "\", " +
+                "\"last_name\":" + "\"" + getLastName() + "\", " +
+                "\"mobile\":" + "\"" + getMobile() + "\", " +
+                "\"fax\":" + "\"" + getFax() + "\", " +
+                "\"work\":" + "\"" + getWork() + "\", " +
+                "\"home\":" + "\"" + getHome() + "\", " +
+                "\"email\":" + "\"" + getEmail() + "\", " +
+                "\"address\":" + "\"" + getAddress() + "\", " +
+                "\"note\":" + "\"" + getNote() + "\"" +
+                "}";
+    }
+
+
+    public String toTableRow() {
+
+        return "<tr>" + "\n" +
+                "<td>" + getFirstName() + " " + getLastName() + "</td>" + "\n" +
+                "<td>" + getMobile() + "</td>" + "\n" +
+                "<td>" + getEmail() + "</td>" + "\n" +
+                "<td class=\"view\">" + "<span class=\"glyphicon glyphicon-search\"></span> </td> \n" +
+                "<td class=\"del\">" + "<span class=\"glyphicon glyphicon-trash\"></span> </td> " +
+                "</tr> \n";
+
+    }
+
+
+    public String toTableRow(int index) {
+
+        return "<tr>" + "\n" +
+                "<td>" + index + "</td>" + "\n" +
+                "<td class=\"ncol\">" + getFirstName() + " " + getLastName() + "</td>" + "\n" +
+                "<td class=\"mcol\">" + getMobile() + "</td>" + "\n" +
+                "<td class=\"ecol\">" + getEmail() + "</td>" + "\n" +
+                "<td class=\"view\">" + "<span class=\"glyphicon glyphicon-search\"></span> </td> \n" +
+                "<td class=\"del\">" + "<span class=\"glyphicon glyphicon-trash\"></span> </td> " +
+                "</tr> \n";
+    }
+
+
 }

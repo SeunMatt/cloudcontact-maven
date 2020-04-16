@@ -1,7 +1,5 @@
-
 import com.smatt.cc.db.DatabaseHelper;
-import static org.junit.Assert.assertNotNull;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -10,16 +8,15 @@ import org.junit.Test;
  */
 
 /**
- *
  * @author smatt
  */
 public class TestLibs {
-    
+
     @Test
     public void testDB() {
-        
+
         new DatabaseHelper();
-        
+
     }
-    
+
 }
