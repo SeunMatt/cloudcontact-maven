@@ -1,4 +1,4 @@
-import com.smatt.cc.db.DatabaseHelper;
+import com.smatt.cc.helpers.DatabaseHelper;
 import org.junit.jupiter.api.Test;
 
 /*

@@ -1,12 +1,15 @@
 /**
  *
  */
-package com.smatt.cc.auth;
+package com.smatt.cc.controllers.auth;
 
 import com.bitbucket.thinbus.srp6.js.SRP6JavascriptServerSessionSHA256;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.nimbusds.srp6.SRP6CryptoParams;
 import com.smatt.cc.config.Constants;
+import com.smatt.cc.config.CryptoParams;
+import com.smatt.cc.models.User;
+import com.smatt.cc.service.Authenticate;
+import com.smatt.cc.service.ChallengeGen;
 import org.jsoup.Jsoup;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

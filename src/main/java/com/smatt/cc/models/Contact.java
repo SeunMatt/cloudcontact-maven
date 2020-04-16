@@ -1,7 +1,7 @@
 /**
  *
  */
-package com.smatt.cc.contact;
+package com.smatt.cc.models;
 
 import org.bson.types.ObjectId;
 import org.mongodb.morphia.annotations.Entity;

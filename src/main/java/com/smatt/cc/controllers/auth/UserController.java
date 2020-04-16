@@ -3,16 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.smatt.cc.auth;
+package com.smatt.cc.controllers.auth;
 
 import com.mongodb.DuplicateKeyException;
-import com.smatt.cc.db.DatabaseHelper;
+import com.smatt.cc.helpers.DatabaseHelper;
+import com.smatt.cc.models.User;
 import org.mongodb.morphia.Datastore;
-import org.mongodb.morphia.Key;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import java.util.List;
 
 /**
  * @author smatt

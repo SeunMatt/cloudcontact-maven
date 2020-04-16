@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.smatt.cc.auth;
+package com.smatt.cc.models;
 
 import org.bson.types.ObjectId;
 import org.mongodb.morphia.annotations.*;

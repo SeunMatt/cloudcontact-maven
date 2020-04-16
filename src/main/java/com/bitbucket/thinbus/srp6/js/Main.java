@@ -3,7 +3,7 @@
  */
 package com.bitbucket.thinbus.srp6.js;
 
-import com.smatt.cc.auth.CryptoParams;
+import com.smatt.cc.config.CryptoParams;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

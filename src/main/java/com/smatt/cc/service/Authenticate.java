@@ -1,4 +1,4 @@
-package com.smatt.cc.auth;
+package com.smatt.cc.service;
 
 import com.bitbucket.thinbus.srp6.js.SRP6JavascriptServerSessionSHA256;
 import org.slf4j.Logger;

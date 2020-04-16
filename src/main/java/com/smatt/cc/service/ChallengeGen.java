@@ -1,9 +1,11 @@
 /**
  *
  */
-package com.smatt.cc.auth;
+package com.smatt.cc.service;
 
 import com.bitbucket.thinbus.srp6.js.SRP6JavascriptServerSessionSHA256;
+import com.smatt.cc.controllers.auth.UserController;
+import com.smatt.cc.models.User;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

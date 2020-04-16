@@ -2,80 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac656862-9c0e-40e0-9cf9-4b7c722d5139" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_client_9_4_18_v20190429.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_4_18_v20190429.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator-enh.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jknack_handlebars_4_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jknack_handlebars_guava_cache_4_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_14_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sparkjava_spark_core_2_5_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sparkjava_spark_core_2_9_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sparkjava_spark_template_handlebars_2_5_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_5_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_3_6_v20151106.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_xml_9_4_18_v20190429.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_3_6_v20151106.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_18_v20190429.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_3_6_v20151106.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_4_18_v20190429.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_3_6_v20151106.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_4_18_v20190429.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_3_6_v20151106.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_webapp_9_4_18_v20190429.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_3_6_v20151106.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_18_v20190429.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_webapp_9_3_6_v20151106.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_xml_9_3_6_v20151106.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_18_v20190429.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_3_6_v20151106.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_4_18_v20190429.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_3_6_v20151106.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_4_18_v20190429.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_3_6_v20151106.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_4_18_v20190429.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_server_9_3_6_v20151106.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_servlet_9_4_18_v20190429.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_servlet_9_3_6_v20151106.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_server_9_4_18_v20190429.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_10_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongo_java_driver_3_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_morphia_morphia_1_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mozilla_rhino_1_7R4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudcontact.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudcontact.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smatt/cc/auth/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smatt/cc/auth/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smatt/cc/auth/Authenticate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smatt/cc/auth/Authenticate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smatt/cc/auth/ChallengeGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smatt/cc/auth/ChallengeGen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smatt/cc/auth/CryptoParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smatt/cc/auth/CryptoParams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smatt/cc/auth/MyResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smatt/cc/auth/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smatt/cc/auth/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smatt/cc/contact/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smatt/cc/contact/Contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bitbucket/thinbus/srp6/js/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bitbucket/thinbus/srp6/js/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smatt/cc/auth/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smatt/cc/controllers/auth/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smatt/cc/auth/Authenticate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smatt/cc/service/Authenticate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smatt/cc/auth/ChallengeGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smatt/cc/service/ChallengeGen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smatt/cc/auth/CryptoParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smatt/cc/config/CryptoParams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smatt/cc/auth/PasswordRecovery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smatt/cc/controllers/auth/PasswordRecovery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smatt/cc/auth/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smatt/cc/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smatt/cc/auth/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smatt/cc/controllers/auth/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smatt/cc/contact/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smatt/cc/models/Contact.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/smatt/cc/contact/ContactController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smatt/cc/contact/ContactController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smatt/cc/db/DatabaseHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smatt/cc/db/DatabaseHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smatt/cc/index/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smatt/cc/index/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smatt/cc/util/JsonTransformer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/smatt/cc/util/Path.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestLibs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestLibs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/smatt/cc/auth/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/smatt/cc/auth/AuthController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/smatt/cc/auth/Authenticate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/smatt/cc/auth/Authenticate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/smatt/cc/auth/ChallengeGen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/smatt/cc/auth/ChallengeGen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/smatt/cc/auth/CryptoParams.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/smatt/cc/auth/CryptoParams.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/smatt/cc/auth/MyResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/smatt/cc/auth/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/smatt/cc/auth/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/smatt/cc/contact/Contact.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/smatt/cc/contact/Contact.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/smatt/cc/contact/ContactController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/smatt/cc/contact/ContactController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/smatt/cc/db/DatabaseHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/smatt/cc/db/DatabaseHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/smatt/cc/index/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/smatt/cc/index/IndexController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/smatt/cc/util/JsonTransformer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/smatt/cc/util/Path$Database.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/smatt/cc/util/Path$Reply.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/smatt/cc/util/Path$Templates.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/smatt/cc/util/Path$Web.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/smatt/cc/util/Path.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestLibs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestLibs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smatt/cc/db/DatabaseHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smatt/cc/helpers/DatabaseHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smatt/cc/util/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smatt/cc/response/Message.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,6 +72,9 @@
       <recent name="com.smatt.cc.config.Constants.Database" />
       <recent name="com.smatt.cc.config.Constants.Templates" />
       <recent name="com.smatt.cc.config.Constants" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/smatt/cc/controllers/auth" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -398,7 +341,7 @@
       <workItem from="1490345528642" duration="7271000" />
       <workItem from="1586428780336" duration="3838000" />
       <workItem from="1586931608798" duration="1327000" />
-      <workItem from="1586933046409" duration="15867000" />
+      <workItem from="1586933046409" duration="16510000" />
     </task>
     <servers />
   </component>
@@ -425,9 +368,10 @@
       <screen x="-149" y="-1057" width="1920" height="1057" />
     </state>
     <state x="655" y="-622" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/-149.-1057.1920.1057/0.23.1680.953@-149.-1057.1920.1057" timestamp="1586428852356" />
-    <state x="691" y="426" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1586963637187">
-      <screen x="0" y="23" width="1680" height="953" />
+    <state x="641" y="-610" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1587035416930">
+      <screen x="-149" y="-1057" width="1920" height="1057" />
     </state>
+    <state x="641" y="-610" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/-149.-1057.1920.1057/0.23.1680.953@-149.-1057.1920.1057" timestamp="1587035416930" />
     <state x="691" y="426" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1680.953@0.23.1680.953" timestamp="1586963637187" />
     <state x="609" y="349" width="461" height="304" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586963550191">
       <screen x="0" y="23" width="1680" height="953" />
@@ -445,25 +389,25 @@
       <screen x="-149" y="-1057" width="1920" height="1057" />
     </state>
     <state x="5" y="-1017" key="CommitChangelistDialog2/-149.-1057.1920.1057/0.23.1680.953@-149.-1057.1920.1057" timestamp="1587033313135" />
-    <state width="1878" height="269" key="GridCell.Tab.0.bottom" timestamp="1587034914085">
+    <state width="1878" height="269" key="GridCell.Tab.0.bottom" timestamp="1587035495912">
       <screen x="-149" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="269" key="GridCell.Tab.0.bottom/-149.-1057.1920.1057/0.23.1680.953@-149.-1057.1920.1057" timestamp="1587034914085" />
+    <state width="1878" height="269" key="GridCell.Tab.0.bottom/-149.-1057.1920.1057/0.23.1680.953@-149.-1057.1920.1057" timestamp="1587035495912" />
     <state width="1638" height="235" key="GridCell.Tab.0.bottom/0.23.1680.953@0.23.1680.953" timestamp="1586962880889" />
-    <state width="1878" height="269" key="GridCell.Tab.0.center" timestamp="1587034914084">
+    <state width="1878" height="269" key="GridCell.Tab.0.center" timestamp="1587035495911">
       <screen x="-149" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="269" key="GridCell.Tab.0.center/-149.-1057.1920.1057/0.23.1680.953@-149.-1057.1920.1057" timestamp="1587034914084" />
+    <state width="1878" height="269" key="GridCell.Tab.0.center/-149.-1057.1920.1057/0.23.1680.953@-149.-1057.1920.1057" timestamp="1587035495911" />
     <state width="1638" height="235" key="GridCell.Tab.0.center/0.23.1680.953@0.23.1680.953" timestamp="1586962880888" />
-    <state width="1878" height="269" key="GridCell.Tab.0.left" timestamp="1587034914084">
+    <state width="1878" height="269" key="GridCell.Tab.0.left" timestamp="1587035495911">
       <screen x="-149" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="269" key="GridCell.Tab.0.left/-149.-1057.1920.1057/0.23.1680.953@-149.-1057.1920.1057" timestamp="1587034914084" />
+    <state width="1878" height="269" key="GridCell.Tab.0.left/-149.-1057.1920.1057/0.23.1680.953@-149.-1057.1920.1057" timestamp="1587035495911" />
     <state width="1638" height="235" key="GridCell.Tab.0.left/0.23.1680.953@0.23.1680.953" timestamp="1586962880887" />
-    <state width="1878" height="269" key="GridCell.Tab.0.right" timestamp="1587034914085">
+    <state width="1878" height="269" key="GridCell.Tab.0.right" timestamp="1587035495912">
       <screen x="-149" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="269" key="GridCell.Tab.0.right/-149.-1057.1920.1057/0.23.1680.953@-149.-1057.1920.1057" timestamp="1587034914085" />
+    <state width="1878" height="269" key="GridCell.Tab.0.right/-149.-1057.1920.1057/0.23.1680.953@-149.-1057.1920.1057" timestamp="1587035495912" />
     <state width="1638" height="235" key="GridCell.Tab.0.right/0.23.1680.953@0.23.1680.953" timestamp="1586962880888" />
     <state x="349" y="-867" key="Maven.ArtifactSearchDialog" timestamp="1587031879129">
       <screen x="-149" y="-1057" width="1920" height="1057" />

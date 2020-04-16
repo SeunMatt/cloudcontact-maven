@@ -1,13 +1,13 @@
 /**
  *
  */
-package com.smatt.cc.db;
+package com.smatt.cc.helpers;
 
 import com.mongodb.MongoClient;
 import com.mongodb.MongoClientURI;
-import com.smatt.cc.auth.User;
+import com.smatt.cc.models.User;
 import com.smatt.cc.config.Constants;
-import com.smatt.cc.contact.Contact;
+import com.smatt.cc.models.Contact;
 import org.mongodb.morphia.Datastore;
 import org.mongodb.morphia.Morphia;
 import org.slf4j.Logger;

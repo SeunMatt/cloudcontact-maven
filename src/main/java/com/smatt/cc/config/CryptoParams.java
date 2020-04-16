@@ -1,4 +1,4 @@
-package com.smatt.cc.auth;
+package com.smatt.cc.config;
 
 /**
  * @author Seun Matt

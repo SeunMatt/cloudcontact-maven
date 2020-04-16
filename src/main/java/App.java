@@ -14,10 +14,10 @@
 
 import com.bitbucket.thinbus.srp6.js.SRP6JavascriptServerSessionSHA256;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.smatt.cc.auth.AuthController;
-import com.smatt.cc.auth.ChallengeGen;
+import com.smatt.cc.controllers.auth.AuthController;
+import com.smatt.cc.service.ChallengeGen;
 import com.smatt.cc.contact.ContactController;
-import com.smatt.cc.db.DatabaseHelper;
+import com.smatt.cc.helpers.DatabaseHelper;
 import com.smatt.cc.index.IndexController;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
